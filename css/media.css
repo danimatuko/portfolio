@@ -1,0 +1,36 @@
+/* Tablets */
+@media (max-width: 768px) {
+  html {
+    font-size: 14px; }
+  body {
+    line-height: 1.5; }
+  .container {
+    width: 90%; }
+  /* INTRO */
+  #intro .intro-content h1 {
+    font-size: 1.7rem; }
+  /* PROJECTS SECTION */
+  #projects-section .projects-wrapper .project .about-project p {
+    width: 90%;
+    text-align: left;
+    padding: 2rem 0; }
+  #projects-section .projects-wrapper .project .about-project a {
+    width: 150px;
+    margin-top: 0.5rem;
+    padding: 0.2rem 0.5rem; }
+  /* FOOTER */
+  #contact {
+    height: 250px; } }
+
+/* Mobile */
+@media (max-width: 550px) {
+  /* PROJECTS SECTION */
+  #projects-section h2 {
+    font-size: 1.3rem; }
+  #projects-section .projects-wrapper .project {
+    flex-direction: column;
+    margin: 2rem 0; }
+    #projects-section .projects-wrapper .project:nth-child(even) .about-project {
+      order: 2; }
+    #projects-section .projects-wrapper .project:nth-child(even) .img-wrapper {
+      order: 1; } }
