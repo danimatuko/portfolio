@@ -10,14 +10,21 @@
   #intro .intro-content h1 {
     font-size: 1.7rem; }
   /* PROJECTS SECTION */
-  #projects-section .projects-wrapper .project .about-project p {
-    width: 90%;
-    text-align: left;
-    padding: 2rem 0; }
-  #projects-section .projects-wrapper .project .about-project a {
-    width: 150px;
-    margin-top: 0.5rem;
-    padding: 0.2rem 0.5rem; }
+  #projects-section {
+    padding-top: 4rem; }
+    #projects-section h2 {
+      margin-bottom: 2rem; }
+    #projects-section .projects-wrapper .project {
+      position: relative; }
+      #projects-section .projects-wrapper .project .about-project p {
+        width: 90%;
+        text-align: left; }
+      #projects-section .projects-wrapper .project .about-project a {
+        width: 150px;
+        margin-top: 0.5rem;
+        padding: 0.2rem 0.5rem;
+        align-self: center;
+        margin-left: 0; }
   /* FOOTER */
   #contact {
     height: 250px; } }
