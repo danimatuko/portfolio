@@ -231,6 +231,12 @@ footer {
   transform: translateX(0rem) !important;
   opacity: 1 !important; }
 
+section:hover {
+  color: bl; }
+
+.active {
+  color: black; }
+
 /************
         Tablets
     *************/
@@ -281,7 +287,6 @@ footer {
     align-items: center;
     opacity: 0.5;
     z-index: 3;
-    border-radius: 0 0 10px 0;
     transition: 0.4s ease-in-out; }
     #hamburger div {
       width: 90%;
@@ -294,8 +299,7 @@ footer {
       transition: 0.5s ease-in-out; }
   /* Hamburger Animation */
   #hamburger.opened {
-    transform: rotate(180deg);
-    border-radius: 10px 0 0 0; }
+    transform: rotate(180deg); }
   #hamburger.opened div {
     position: absolute;
     width: 70%; }
