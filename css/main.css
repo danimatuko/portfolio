@@ -330,6 +330,8 @@ section:hover {
       transition: 0.5 ease;
       transition-delay: 0.2s;
       font-size: 1.5rem; }
+      #nav-bar .menu-item .active {
+        color: #98ba88; }
   #nav-bar.show-menu .menu-item {
     opacity: 1; }
   .show-menu {

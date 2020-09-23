@@ -30,7 +30,7 @@ window.addEventListener('scroll', () => {
 });
 
 
-
+/* scrollSpy */
 
 (function() {
     'use strict';
@@ -56,30 +56,13 @@ window.addEventListener('scroll', () => {
             }
         }
 
-        // if scrolled to bottom contact is active
+        // if the page scrolled to bottom contact is active
         if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
             document.querySelector('.active').setAttribute('class', ' ');
             document.querySelector('a[href*= contact ]').setAttribute('class', 'active');
         }
     };
 })();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -93,6 +76,7 @@ if (screen.width <= 550) {
     hamburger.addEventListener('click', () => {
         hamburger.classList.toggle('opened');
         hamburger.classList.contains('opened') ? menu.classList.add('show-menu') : menu.classList.remove('show-menu');
+
     });
 
     menuItem.forEach((item) => {
@@ -100,7 +84,7 @@ if (screen.width <= 550) {
             setTimeout(() => {
                 hamburger.classList.remove('opened');
                 menu.classList.remove('show-menu');
-            }, 450);
+            }, 850);
 
 
         });
