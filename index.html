@@ -23,17 +23,20 @@
             <div class="line_3"></div>
         </div>
 
-    </header>
-    <!-- main -->
-    <main>
-        <!--intro-->
-        <section id="intro">
+        <nav>
+            <img src="icons/dmn.png" alt="" class="logo">
             <ul id="nav-bar">
                 <li class="menu-item"><a href="#home">Home</a></li>
-                <li class="menu-item"><a href="#about-section" class="active">About</a></li>
+                <li class="menu-item"><a href="#about-section">About</a></li>
                 <li class="menu-item"><a href="#projects-section">Projects</a></li>
                 <li class="menu-item"><a href="#contact">Contact</a></li>
             </ul>
+
+        </nav>
+
+        <!--intro-->
+        <section id="intro">
+
             <div class="container">
                 <div class="intro-content">
                     <h1>Hey I am Dani Matuko.</h1>
@@ -41,6 +44,23 @@
                 </div>
             </div>
         </section>
+
+        <div class="animation-area">
+            <ul class="boxes">
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+                <li class="box"></li>
+            </ul>
+        </div>
+
+    </header>
+    <!-- main -->
+    <main>
+
         <!-- About -->
         <section class="section" id="about-section">
             <div class="container">
@@ -88,7 +108,6 @@
                             <ul class="tech">
                                 <li>html</li>
                                 <li>css</li>
-                                <li>sass</li>
                                 <li>javascript</li>
                             </ul>
                             <a href="https://eledger.netlify.app/" target="_blank">
@@ -108,7 +127,6 @@
                             <ul class="tech">
                                 <li>html</li>
                                 <li>css</li>
-                                <li>sass</li>
                                 <li>javascript</li>
                             </ul>
                             <a href="https://newsg.netlify.app/" target="_blank">
@@ -128,7 +146,6 @@
                             <ul class="tech">
                                 <li>html</li>
                                 <li>css</li>
-                                <li>sass</li>
                                 <li>javascript</li>
                             </ul>
                             <a href="https://cardsmatching.netlify.app/" target="_blank">
@@ -145,19 +162,27 @@
     </main>
 
     <footer class="section" id="contact">
-        <h2>Contact Me</h2>
-        <p>Find me on:</p>
-        <ul class="social">
-            <a href="https://www.linkedin.com/in/dani-matuko/" target="_blank">
-                <li><i class="fa fa-linkedin-square"></i> LinkedIn</li>
-            </a>
-            <a href="https://github.com/DaniMatuko" target="_blank">
-                <li><i class="fa fa-github"></i> Github</li>
-            </a>
-            <a href="https://codepen.io/Matuko" target="_blank">
-                <li><i class="fa fa-codepen"></i> CodePen</li>
-            </a>
-        </ul>
+        <div class="contact-intro">
+            <h2>Let's <span>work</span> together.</h2>
+            <p>If you'd like to have a new developer in your team, please get in touch.</p>
+            <a id="email" href="mailto:matuko305@gmail.com" target="_blank"><i class="fas fa-envelope"></i> matuko305@gmail.com</a>
+        </div>
+
+        <div class="contact-details">
+            <h3>Find me on :</h3>
+            <ul class="social">
+                <a href="https://www.linkedin.com/in/dani-matuko/" target="_blank">
+                    <li><i class="fa fa-linkedin-square"></i> LinkedIn</li>
+                </a>
+                <a href="https://github.com/DaniMatuko" target="_blank">
+                    <li><i class="fa fa-github"></i> Github</li>
+                </a>
+                <a href="https://codepen.io/Matuko" target="_blank">
+                    <li><i class="fa fa-codepen"></i> CodePen</li>
+                </a>
+            </ul>
+        </div>
+
     </footer>
 
     <script src="js/app.js"></script>

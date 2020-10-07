@@ -30,41 +30,6 @@ window.addEventListener('scroll', () => {
 });
 
 
-/* scrollSpy */
-
-(function() {
-    'use strict';
-
-    var section = document.querySelectorAll(".section");
-    var sections = {};
-    var i = 0;
-
-    Array.prototype.forEach.call(section, function(element) {
-        sections[element.id] = element.offsetTop;
-    });
-
-
-    window.onscroll = function() {
-        var scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
-        let contactArea = document.querySelector('#contact').getBoundingClientRect();
-
-        for (i in sections) {
-            if (sections[i] <= scrollPosition) {
-                console.log([i]);
-                document.querySelector('.active').setAttribute('class', ' ');
-                document.querySelector('a[href*=' + i + ']').setAttribute('class', 'active');
-            }
-        }
-
-        // if the page scrolled to bottom contact is active
-        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-            document.querySelector('.active').setAttribute('class', ' ');
-            document.querySelector('a[href*= contact ]').setAttribute('class', 'active');
-        }
-    };
-})();
-
-
 
 /* Mobile Navigation */
 if (screen.width <= 550) {
