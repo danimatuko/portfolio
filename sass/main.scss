@@ -167,7 +167,7 @@ header {
             color: $secondary-color;
         }
         #view-work {
-            z-index: 2;
+            z-index: 1;
             color: $secondary-color;
             border: 3px solid $secondary-color;
             padding: 0.5rem 0.8rem;
@@ -176,8 +176,11 @@ header {
             box-shadow: 2px 2px 3px $medium-color;
             font-size: 1.3rem;
             font-weight: bold;
-            transition: 1s ease;
-            &:hover {}
+            transition: 1s ease-out;
+            &:hover {
+                background: lighten($primary-color, 5%);
+                color: darken($secondary-color, 5%);
+            }
         }
     }
 }
@@ -187,7 +190,7 @@ header {
 
 #about-section {
     background: $light-color;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -265,10 +268,9 @@ header {
                 padding: 0 1rem;
                 display: flex;
                 margin: 1.2rem 0;
-                color: $light-color;
                 li {
-                    color: $dark-color;
-                    background: $medium-color;
+                    color: $light-color;
+                    background: $secondary-color;
                     font-size: 0.8rem;
                     padding: 0.2rem 0.5rem;
                     border-radius: 50px;
@@ -284,7 +286,7 @@ header {
                 color: $light-color;
                 margin-left: 3.5rem;
                 width: 200px;
-                background: $dark-color;
+                background: $primary-color;
                 transition: 1s ease;
                 &:hover {
                     color: $secondary-color;
@@ -316,7 +318,7 @@ header {
 
 footer {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #22313f;
     display: flex;
     flex-direction: column;
@@ -334,6 +336,10 @@ footer {
             text-align: left;
             margin-top: 1.5rem;
             border-bottom: 2px solid $primary-color;
+            font-size: 1.2rem;
+            i {
+                font-size: 1.2rem;
+            }
         }
     }
     h2,
