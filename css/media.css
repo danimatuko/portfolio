@@ -2,7 +2,7 @@
 
 @media (max-width: 768px) {
     html {
-        font-size: 14px;
+        font-size: 14px !important;
     }
     body {
         line-height: 1.5;

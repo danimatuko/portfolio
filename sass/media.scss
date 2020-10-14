@@ -2,7 +2,7 @@
         
         @media (max-width: 768px) {
             html {
-                font-size: 14px;
+                font-size: 15px !important;
             }
             body {
                 line-height: 1.5;
@@ -100,8 +100,16 @@
             }
             /* /////// */
             /* INTRO */
-            #intro .intro-content h1 {
-                font-size: 1.7rem;
+            #intro {
+                .intro-content {
+                    padding-bottom: 4rem;
+                    h1 {
+                        font-size: 1.7rem;
+                    }
+                    #view-work {
+                        font-size: 1.1rem;
+                    }
+                }
             }
             /* PROJECTS SECTION */
             #projects-section {
@@ -178,8 +186,19 @@
                 h2 {
                     font-size: 1.6rem;
                 }
+                .container {
+                    width: 85%;
+                }
+                .contact-intro {
+                    p {
+                        color: white;
+                    }
+                    #email {
+                        font-size: 1rem;
+                    }
+                }
                 .contact-details {
-                    margin-top: 2rem;
+                    margin-top: 4rem;
                     .social {
                         justify-content: space-around;
                         a {

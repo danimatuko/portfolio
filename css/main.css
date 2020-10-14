@@ -92,9 +92,9 @@ header {
       justify-content: flex-end;
       align-items: flex-start; }
       header nav #nav-bar .menu-item {
-        padding: 0.8rem 1.8rem;
-        font-size: 1.2rem; }
+        padding: 0.8rem 1.8rem; }
         header nav #nav-bar .menu-item a {
+          font-size: 1.2rem;
           color: #ac4c58; }
   header .animation-area {
     height: 100vh;
@@ -347,7 +347,8 @@ footer {
       font-weight: bold;
       text-transform: capitalize; }
       footer .contact-details h3 i {
-        font-size: 1.3rem; }
+        font-size: 1.2rem;
+        color: #a4a7d8; }
     footer .contact-details .social {
       display: flex;
       justify-content: center;
@@ -373,7 +374,7 @@ footer {
 /* Tablets */
 @media (max-width: 768px) {
   html {
-    font-size: 14px; }
+    font-size: 15px !important; }
   body {
     line-height: 1.5; }
   .container {
@@ -454,8 +455,12 @@ footer {
     transform: scale(5); }
   /* /////// */
   /* INTRO */
-  #intro .intro-content h1 {
-    font-size: 1.7rem; }
+  #intro .intro-content {
+    padding-bottom: 4rem; }
+    #intro .intro-content h1 {
+      font-size: 1.7rem; }
+    #intro .intro-content #view-work {
+      font-size: 1.1rem; }
   /* PROJECTS SECTION */
   #projects-section {
     padding-top: 4rem; }
@@ -502,8 +507,14 @@ footer {
   /* Footer */
   footer h2 {
     font-size: 1.6rem; }
+  footer .container {
+    width: 85%; }
+  footer .contact-intro p {
+    color: white; }
+  footer .contact-intro #email {
+    font-size: 1rem; }
   footer .contact-details {
-    margin-top: 2rem; }
+    margin-top: 4rem; }
     footer .contact-details .social {
       justify-content: space-around; }
       footer .contact-details .social a {

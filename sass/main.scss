@@ -49,8 +49,8 @@ header {
             align-items: flex-start;
             .menu-item {
                 padding: 0.8rem 1.8rem;
-                font-size: 1.2rem;
                 a {
+                    font-size: 1.2rem;
                     color: $secondary-color;
                 }
             }
@@ -362,7 +362,8 @@ footer {
             font-weight: bold;
             text-transform: capitalize;
             i {
-                font-size: 1.3rem;
+                font-size: 1.2rem;
+                color: $light-color;
             }
         }
         .social {
