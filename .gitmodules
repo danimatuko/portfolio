@@ -1,3 +1,12 @@
 [submodule "projects/sounds-good"]
 	path = projects/sounds-good
 	url = https://github.com/DaniMatuko/Sounds-Good.git
+[submodule "projects/edgeledger"]
+	path = projects/edgeledger
+	url = https://github.com/DaniMatuko/EdgeLedger.git
+[submodule "projects/newsgrid"]
+	path = projects/newsgrid
+	url = https://github.com/DaniMatuko/newsGrid.git
+[submodule "projects/memory-game"]
+	path = projects/memory-game
+	url = https://github.com/DaniMatuko/Memory-Game.git
