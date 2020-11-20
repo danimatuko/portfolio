@@ -1,0 +1,3 @@
+[submodule "projects/sounds-good"]
+	path = projects/sounds-good
+	url = https://github.com/DaniMatuko/Sounds-Good.git
