@@ -10,3 +10,6 @@
 [submodule "projects/memory-game"]
 	path = projects/memory-game
 	url = https://github.com/DaniMatuko/Memory-Game.git
+[submodule "projects/github-finder"]
+	path = projects/github-finder
+	url = https://github.com/danimatuko/github-finder.git
