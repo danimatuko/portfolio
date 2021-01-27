@@ -24,10 +24,6 @@ h4 {
 	text-align: center;
 }
 
-h2 {
-	font-size: 4rem;
-}
-
 P {
 	padding: 0 1.5rem;
 	line-height: 1.5;
@@ -80,11 +76,19 @@ body {
 	width: 75%;
 	margin: 0 auto;
 }
-
+/* Headings */
 .section-title {
 	font-family: "Wendy One", sans-serif;
 	color: #9a444f;
 	font-size: 3rem;
+}
+
+.project-name {
+	font-family: "Wendy One", sans-serif;
+	text-align: left;
+	color: #9a444f;
+	font-size: 2rem;
+	width: 75%;
 }
 
 header {
@@ -117,11 +121,19 @@ header nav #nav-bar {
 }
 header nav #nav-bar .menu-item {
 	padding: 0.8rem 1.8rem;
+	transition: 0.3s ease-in-out;
 }
+
+header nav #nav-bar .menu-item:hover {
+	transform: scale(1.15);
+}
+
 header nav #nav-bar .menu-item a {
 	font-size: 1.2rem;
 	color: #ac4c58;
+	font-family: "Wendy One", sans-serif;
 }
+
 header .animation-area {
 	height: 100vh;
 	width: 100%;
@@ -346,8 +358,8 @@ header .animation-area .boxes .box:nth-child(7) {
 	padding: 0.3rem 2rem;
 	border-radius: 3px;
 	color: #ecedf9;
-	margin-left: 3.5rem;
-	width: 200px;
+	margin-left: 4.5rem;
+	width: 170px;
 	background: #22313f;
 	transition: 1s ease;
 }
@@ -599,15 +611,35 @@ footer i {
 		margin: 0;
 		color: white;
 	}
+
+	.section-title {
+		font-size: 2.3rem;
+	}
 	#intro .intro-content p {
 		padding: 0;
 	}
 	#intro .intro-content span {
 		font-size: 2rem;
 	}
+
+	.lead {
+		text-align: center;
+	}
+
+	/* ABOUT-SECTION */
+
+	.about-wrapper {
+		padding: 3rem 0;
+	}
+
+	#about-section p {
+		width: 100%;
+	}
+
 	/* PROJECTS SECTION */
-	#projects-section h2 {
-		font-size: 1.6rem;
+
+	.project-name {
+		text-align: center;
 	}
 	#projects-section .projects-wrapper .project {
 		flex-direction: column;
@@ -618,6 +650,19 @@ footer i {
 	}
 	#projects-section .projects-wrapper .project:nth-child(even) .img-wrapper {
 		order: 1;
+	}
+
+	.about-project p {
+		width: 85% !important;
+	}
+
+	#projects-section .project .about-project .tech {
+		flex-wrap: wrap;
+	}
+
+	#projects-section .project .about-project .tech li {
+		flex-wrap: wrap;
+		margin-top: 0.5rem;
 	}
 	/* Footer */
 	footer h2 {
