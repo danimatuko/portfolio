@@ -1,73 +1,72 @@
 /* GENERAL */
 
-
 /* COLORS */
 
 //:#437f97;
-$primary-color:#22313f;
-$secondary-color:#ac4c58;
-$light-color:#ecedf9;
+$primary-color: coral;
+$secondary-color: #1c1d25;
+$light-color: #1826c4;
 $medium-color: #c26e79;
-$dark-color:#3f5057; //#3f5057;
-//#d1495b; 
+$dark-color: #1c1d25; //#3f5057;
+//#d1495b;
 // rgb(27, 64, 121);
 // Reset
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 ul {
-    list-style: none;
+	list-style: none;
 }
 
 a {
-    color: white;
-    text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    text-align: center;
+	margin-bottom: 2rem;
+	margin-top: 1rem;
+	text-align: center;
 }
 
 h2 {
-    font-size: 4rem;
+	font-size: 4rem;
 }
 
 P {
-    padding: 0 1.5rem;
-    line-height: 1.5;
+	padding: 0 1.5rem;
+	line-height: 1.5;
 }
 
 // components
 .btn {
-    height: 2rem;
-    width: 9rem;
-    border-radius: 5px;
-    text-align: center;
-    line-height: 2.5rem;
+	height: 2rem;
+	width: 9rem;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 2.5rem;
 }
 
 .btn-light {
-    background: $light-color;
-    color: black;
-    padding: 0.5rem 1rem;
+	background: $light-color;
+	color: black;
+	padding: 0.5rem 1rem;
 }
 
 .btn-dark {
-    background: $dark-color;
-    color: white;
-    padding: 0.5rem 1rem;
+	background: $dark-color;
+	color: white;
+	padding: 0.5rem 1rem;
 }
 
 .btn-medium {
-    background: $medium-color;
-    color: white;
-    padding: 0.5rem 1rem;
+	background: $medium-color;
+	color: white;
+	padding: 0.5rem 1rem;
 }
