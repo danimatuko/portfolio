@@ -375,6 +375,14 @@ footer {
   transform: translateX(0rem) !important;
   opacity: 1 !important; }
 
+a.scroll-to-top {
+  position: fixed;
+  right: 3rem;
+  bottom: 1rem; }
+  a.scroll-to-top i {
+    color: coral;
+    font-size: 2rem; }
+
 /* Tablets */
 @media (max-width: 768px) {
   html {
@@ -448,7 +456,7 @@ footer {
     transform: scale(1) !important;
     opacity: 1 !important; }
   #nav-bar.show-menu::before {
-    content: '';
+    content: "";
     position: absolute;
     height: 300px;
     width: 300px;
@@ -527,4 +535,6 @@ footer {
         footer .contact-details .social a i {
           display: inherit;
           font-size: 1.5rem;
-          padding-bottom: 0.5rem; } }
+          padding-bottom: 0.5rem; }
+  a.scroll-to-top {
+    display: none; } }

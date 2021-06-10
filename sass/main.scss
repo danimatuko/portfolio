@@ -451,4 +451,15 @@ footer {
 	opacity: 1 !important;
 }
 
+a.scroll-to-top {
+	position: fixed;
+	right: 3rem;
+	bottom: 1rem;
+
+	i {
+		color: $primary-color;
+		font-size: 2rem;
+	}
+}
+
 @import "media";
