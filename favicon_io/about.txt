@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Holtwood One SC
+- Font Author: Copyright (c) 2011 by vernon adams. All rights reserved.
+- Font Source: http://fonts.gstatic.com/s/holtwoodonesc/v11/yYLx0hLR0P-3vMFSk1TCq3Txg5B3cbb6LZttyg.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)
