@@ -184,11 +184,11 @@
 
 	/* ABOUT */
 	.about-wrapper {
-		h2.section-title {
-			margin-top: 1.5rem !important;
-		}
+		height: 80vh;
+
 		p {
 			font-size: 1.1rem !important;
+			padding: 0 2rem !important;
 		}
 	}
 
@@ -198,7 +198,7 @@
 			font-size: 1.6rem;
 		}
 		.container {
-			width: 85%;
+			width: 70%;
 		}
 		.contact-intro {
 			p {
